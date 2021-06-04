@@ -172,7 +172,6 @@ class MusicControl extends PureComponent {
 
   render() {
     const {isPause, containerHeight} = this.state;
-    console.log({cek: this.state});
     return (
       <Animated.View style={[styles.container, {height: containerHeight}]}>
         <View style={styles.topContainer}>

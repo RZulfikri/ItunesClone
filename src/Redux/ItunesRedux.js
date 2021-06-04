@@ -68,7 +68,7 @@ export const setBackwardReducer = state => {
     const index = s
       .get('songList')
       .findIndex(m => m.get('trackId') === s.get('activeSong').get('trackId'));
-    if (index > 0) {
+    if (index - 1 >= 0) {
       s.set('activeSong', s.getIn(['songList', index - 1]));
     }
   });
@@ -79,7 +79,7 @@ export const setForwardReducer = state => {
     const index = s
       .get('songList')
       .findIndex(m => m.get('trackId') === s.get('activeSong').get('trackId'));
-    if (index < s.get('songList').size) {
+    if (index + 1 <= s.get('songList').size - 1) {
       s.set('activeSong', s.getIn(['songList', index + 1]));
     }
   });

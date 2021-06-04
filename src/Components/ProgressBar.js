@@ -25,20 +25,13 @@ class ProgressBar extends ProgressComponent {
   }
 
   onSlidingComplete(val) {
-    console.log(val);
     const {onSeek} = this.props;
     onSeek(val);
   }
 
   render() {
     return (
-      // Note: formatTime and ProgressBar are just examples:
       <View>
-        {/* <Text>{formatTime(this.state.position)}</Text> */}
-        {/* <ProgressBar
-          progress={this.getProgress()}
-          buffered={this.getBufferedProgress()}
-        /> */}
         <Slider
           style={styles.slider}
           minimumValue={0}
