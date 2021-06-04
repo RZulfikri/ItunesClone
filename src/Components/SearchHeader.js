@@ -21,6 +21,9 @@ const styles = StyleSheet.create({
   },
 });
 
+/**
+ * Search Component this component used to trigger search action on typing using debounce schema.
+ */
 class SearchHeader extends PureComponent {
   constructor(props) {
     super(props);
@@ -28,6 +31,7 @@ class SearchHeader extends PureComponent {
     this.onChangeText = debounce(this.onChangeText.bind(this), 300);
   }
 
+  // this function will trigger search action to the api and stop & hide music playar
   onChangeText(text) {
     const {searchArtistRequest} = this.props;
     MusicPlayerHolder.stop();

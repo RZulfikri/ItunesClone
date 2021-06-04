@@ -1,7 +1,7 @@
-import React, {PureComponent} from 'react';
+import React from 'react';
 import Slider from '@react-native-community/slider';
 import {StyleSheet, View} from 'react-native';
-import {ProgressComponent, TrackPlayerEvents} from 'react-native-track-player';
+import {ProgressComponent} from 'react-native-track-player';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const styles = StyleSheet.create({
@@ -11,6 +11,10 @@ const styles = StyleSheet.create({
   },
 });
 
+/**
+ * This is a component that extend event from ProgressComponent, to track player position in realtime
+ */
+
 class ProgressBar extends ProgressComponent {
   constructor(props) {
     super(props);
@@ -19,11 +23,13 @@ class ProgressBar extends ProgressComponent {
     this.onSlidingComplete = this.onSlidingComplete.bind(this);
   }
 
+  // function to pause player on slider touched
   async onTouchStart() {
     const {onPause} = this.props;
     onPause();
   }
 
+  // function to seek player on slider complete
   onSlidingComplete(val) {
     const {onSeek} = this.props;
     onSeek(val);

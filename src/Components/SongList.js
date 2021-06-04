@@ -21,6 +21,10 @@ const styles = StyleSheet.create({
   },
 });
 
+/**
+ * This component is used to show list of music/song respone from the api
+ */
+
 class SongList extends PureComponent {
   constructor(props) {
     super(props);

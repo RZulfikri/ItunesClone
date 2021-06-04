@@ -38,6 +38,11 @@ const styles = StyleSheet.create({
   },
 });
 
+/**
+ * This component is used as music player/control.
+ * the feature is play, pause, stop, seek, backward and forward music/song
+ */
+
 class MusicControl extends PureComponent {
   activeSong;
 
@@ -62,6 +67,7 @@ class MusicControl extends PureComponent {
   async componentDidMount() {
     const {setRef} = this.props;
 
+    // action to passing function from child to parent component
     if (typeof setRef === 'function') {
       setRef({
         show: this.show,
@@ -72,6 +78,7 @@ class MusicControl extends PureComponent {
       });
     }
 
+    // an event listener for player playback state
     await TrackPlayer.addEventListener('playback-state', async ({state}) => {
       if (state === STATE_PAUSED) {
         const position = await TrackPlayer.getPosition();
@@ -87,6 +94,7 @@ class MusicControl extends PureComponent {
     });
   }
 
+  // action to start show animation
   show() {
     Animated.timing(this.state.containerHeight, {
       toValue: MAX_HEIGHT,
@@ -100,6 +108,7 @@ class MusicControl extends PureComponent {
     });
   }
 
+  // action to start hide animation
   hide() {
     Animated.timing(this.state.containerHeight, {
       toValue: MIN_HEIGHT,
@@ -113,6 +122,7 @@ class MusicControl extends PureComponent {
     });
   }
 
+  // function to play/resume music
   play(data, force) {
     this.activeSong = data;
     if (this.state.isStop || force) {
@@ -139,12 +149,14 @@ class MusicControl extends PureComponent {
     }
   }
 
+  // function to pause music player
   pause() {
     this.setState({isPause: true}, async () => {
       await TrackPlayer.pause();
     });
   }
 
+  // function to stop music player
   stop() {
     this.setState({isPause: false, isStop: true}, async () => {
       this.activeSong = undefined;
@@ -152,6 +164,7 @@ class MusicControl extends PureComponent {
     });
   }
 
+  // function to seek playe based on slider position
   async seek(position) {
     this.setState({isPause: false}, async () => {
       const duration = await TrackPlayer.getDuration();
@@ -160,11 +173,13 @@ class MusicControl extends PureComponent {
     });
   }
 
+  // function to backward music
   backward() {
     const {setBackward} = this.props;
     setBackward();
   }
 
+  // function to forward music
   forward() {
     const {setForward} = this.props;
     setForward();

@@ -5,6 +5,10 @@ import {createSelector} from 'reselect';
 import {ItunesSelectors} from '../Redux/ItunesRedux';
 import Colors from '../Themes/Colors';
 
+/**
+ * Component to idicate active music/song in the list
+ */
+
 class ActiveSongIndicator extends PureComponent {
   render() {
     const {data, activeSong} = this.props;
