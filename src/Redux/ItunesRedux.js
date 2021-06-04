@@ -11,6 +11,7 @@ const {Types, Creators} = createActions({
   setActiveSong: ['data'],
   setBackward: null,
   setForward: null,
+  resetStore: null,
 });
 
 export const ItunesTypes = Types;
@@ -85,6 +86,10 @@ export const setForwardReducer = state => {
   });
 };
 
+export const resetStoreReducer = state => {
+  return INITIAL_STATE;
+};
+
 /* ------------- Hookup Reducers To Types ------------- */
 
 export const reducer = createReducer(INITIAL_STATE, {
@@ -94,4 +99,5 @@ export const reducer = createReducer(INITIAL_STATE, {
   [Types.SET_ACTIVE_SONG]: setActiveSongReducer,
   [Types.SET_BACKWARD]: setBackwardReducer,
   [Types.SET_FORWARD]: setForwardReducer,
+  [Types.RESET_STORE]: resetStoreReducer,
 });
