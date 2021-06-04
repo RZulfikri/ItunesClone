@@ -5,6 +5,8 @@ import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
 import TrackPlayer, {STATE_PAUSED} from 'react-native-track-player';
 import ProgressBar from './ProgressBar';
 import ActiveSongItem from './ActiveSongItem';
+import ItunesActions from '../Redux/ItunesRedux';
+import {connect} from 'react-redux';
 
 const MAX_HEIGHT = 100;
 const MIN_HEIGHT = 0;
@@ -159,11 +161,13 @@ class MusicControl extends PureComponent {
   }
 
   backward() {
-    //
+    const {setBackward} = this.props;
+    setBackward();
   }
 
   forward() {
-    //
+    const {setForward} = this.props;
+    setForward();
   }
 
   render() {
@@ -204,4 +208,11 @@ class MusicControl extends PureComponent {
   }
 }
 
-export default MusicControl;
+const mapDispatchToProps = dispatch => {
+  return {
+    setBackward: () => dispatch(ItunesActions.setBackward()),
+    setForward: () => dispatch(ItunesActions.setForward()),
+  };
+};
+
+export default connect(null, mapDispatchToProps)(MusicControl);

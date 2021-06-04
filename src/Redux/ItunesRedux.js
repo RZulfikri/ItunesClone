@@ -9,6 +9,8 @@ const {Types, Creators} = createActions({
   searchArtistSuccess: ['payload'],
   searchArtistFailure: null,
   setActiveSong: ['data'],
+  setBackward: null,
+  setForward: null,
 });
 
 export const ItunesTypes = Types;
@@ -61,6 +63,28 @@ export const setActiveSongReducer = (state, {data}) => {
   return state.set('activeSong', fromJS(data));
 };
 
+export const setBackwardReducer = state => {
+  return state.withMutations(s => {
+    const index = s
+      .get('songList')
+      .findIndex(m => m.get('trackId') === s.get('activeSong').get('trackId'));
+    if (index > 0) {
+      s.set('activeSong', s.getIn(['songList', index - 1]));
+    }
+  });
+};
+
+export const setForwardReducer = state => {
+  return state.withMutations(s => {
+    const index = s
+      .get('songList')
+      .findIndex(m => m.get('trackId') === s.get('activeSong').get('trackId'));
+    if (index < s.get('songList').size) {
+      s.set('activeSong', s.getIn(['songList', index + 1]));
+    }
+  });
+};
+
 /* ------------- Hookup Reducers To Types ------------- */
 
 export const reducer = createReducer(INITIAL_STATE, {
@@ -68,4 +92,6 @@ export const reducer = createReducer(INITIAL_STATE, {
   [Types.SEARCH_ARTIST_SUCCESS]: searchArtistSuccessReducer,
   [Types.SEARCH_ARTIST_FAILURE]: searchArtistFailureReducer,
   [Types.SET_ACTIVE_SONG]: setActiveSongReducer,
+  [Types.SET_BACKWARD]: setBackwardReducer,
+  [Types.SET_FORWARD]: setForwardReducer,
 });

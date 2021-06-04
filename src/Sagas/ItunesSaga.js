@@ -1,5 +1,6 @@
-import {call, put} from '@redux-saga/core/effects';
-import ItunesActions from '../Redux/ItunesRedux';
+import {call, put, select} from '@redux-saga/core/effects';
+import MusicPlayerHolder from '../Helper/MusicPlayerHolder';
+import ItunesActions, {ItunesSelectors} from '../Redux/ItunesRedux';
 
 export function* SearchArtistSaga(api, {data}) {
   try {
@@ -14,4 +15,14 @@ export function* SearchArtistSaga(api, {data}) {
   } catch (error) {
     yield put(ItunesActions.searchArtistFailure());
   }
+}
+
+export function* SetBackwardSaga() {
+  const activeSong = yield select(ItunesSelectors.getActiveSong);
+  MusicPlayerHolder.play(activeSong);
+}
+
+export function* SetForwardSaga() {
+  const activeSong = yield select(ItunesSelectors.getActiveSong);
+  MusicPlayerHolder.play(activeSong);
 }

@@ -1,7 +1,7 @@
 import {takeLatest, all, takeEvery} from 'redux-saga/effects';
 import {ItunesTypes} from '../Redux/ItunesRedux';
 import API from '../Services/Api';
-import {SearchArtistSaga} from './ItunesSaga';
+import {SearchArtistSaga, SetBackwardSaga, SetForwardSaga} from './ItunesSaga';
 
 /* ------------- Types ------------- */
 
@@ -19,5 +19,7 @@ export default function* root() {
   yield all([
     // some sagas only receive an action
     takeLatest(ItunesTypes.SEARCH_ARTIST_REQUEST, SearchArtistSaga, api),
+    takeLatest(ItunesTypes.SET_BACKWARD, SetBackwardSaga),
+    takeLatest(ItunesTypes.SET_FORWARD, SetForwardSaga),
   ]);
 }
