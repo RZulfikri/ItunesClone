@@ -25,7 +25,7 @@ export const INITIAL_STATE = Map({
 /* ------------- Selectors ------------- */
 
 export const ItunesSelectors = {
-  getSearchKeyboard: state => state.getIn(['itunes', 'searchArtist', 'data']),
+  getSearchKeyword: state => state.getIn(['itunes', 'searchArtist', 'data']),
   getSearchLoading: state =>
     state.getIn(['itunes', 'searchArtist', 'fetching']),
   getSearchErrorStatus: state =>

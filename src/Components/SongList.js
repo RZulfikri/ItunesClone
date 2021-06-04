@@ -1,9 +1,25 @@
 import React, {PureComponent} from 'react';
-import {FlatList} from 'react-native';
+import {FlatList, StyleSheet, Text, View} from 'react-native';
 import {connect} from 'react-redux';
 import {createSelector} from 'reselect';
 import {ItunesSelectors} from '../Redux/ItunesRedux';
 import SongRowItem from './SongRowItem';
+
+const styles = StyleSheet.create({
+  title: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  message: {
+    fontSize: 15,
+    fontWeight: '500',
+  },
+  emptyContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
 
 class SongList extends PureComponent {
   constructor(props) {
@@ -26,7 +42,7 @@ class SongList extends PureComponent {
   }
 
   render() {
-    const {isLoading, results} = this.props;
+    const {isLoading, results, keyword} = this.props;
     return (
       <FlatList
         data={results.toArray()}
@@ -38,6 +54,32 @@ class SongList extends PureComponent {
         contentContainerStyle={{flexGrow: 1}}
         keyboardDismissMode={'interactive'}
         keyboardShouldPersistTaps={'handled'}
+        ListEmptyComponent={() => {
+          if (isLoading) {
+            return (
+              <View style={styles.emptyContainer}>
+                <Text style={styles.title}>Loading</Text>
+                <Text style={styles.message}>Looking for your music</Text>
+              </View>
+            );
+          }
+
+          if (keyword && keyword.length > 0) {
+            return (
+              <View style={styles.emptyContainer}>
+                <Text style={styles.title}>No Result Found</Text>
+                <Text style={styles.message}>Try another keyword</Text>
+              </View>
+            );
+          }
+
+          return (
+            <View style={styles.emptyContainer}>
+              <Text style={styles.title}>Search your artist</Text>
+              <Text style={styles.message}>To start listening your music</Text>
+            </View>
+          );
+        }}
       />
     );
   }
@@ -48,12 +90,14 @@ const selector = createSelector(
     ItunesSelectors.getSearchLoading,
     ItunesSelectors.getSearchResult,
     ItunesSelectors.getSearchErrorStatus,
+    ItunesSelectors.getSearchKeyword,
   ],
-  (isLoading, results, isError) => {
+  (isLoading, results, isError, keyword) => {
     return {
       isLoading,
       results,
       isError,
+      keyword,
     };
   },
 );
