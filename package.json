@@ -17,6 +17,8 @@
     "immutable": "^4.0.0-rc.12",
     "react": "17.0.1",
     "react-native": "0.64.2",
+    "react-native-swift": "^1.2.3",
+    "react-native-track-player": "^1.2.7",
     "react-native-vector-icons": "^8.1.0",
     "react-redux": "^7.2.4",
     "redux": "^4.1.0",
@@ -37,5 +39,6 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "isSwift": true
 }

@@ -22,7 +22,7 @@ class MusicPlayerHolder {
       this.isShow = true;
     }
     this.activeSong = data;
-    this.player.play(data);
+    this.player.play(data, true);
   }
 
   pause() {

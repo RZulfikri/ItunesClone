@@ -1,8 +1,10 @@
 import React, {PureComponent} from 'react';
-import {Animated, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {Animated, StyleSheet, TouchableOpacity, View} from 'react-native';
 import Colors from '../Themes/Colors';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
-import Slider from '@react-native-community/slider';
+import TrackPlayer, {STATE_PAUSED} from 'react-native-track-player';
+import ProgressBar from './ProgressBar';
+import ActiveSongItem from './ActiveSongItem';
 
 const MAX_HEIGHT = 100;
 const MIN_HEIGHT = 0;
@@ -25,17 +27,23 @@ const styles = StyleSheet.create({
   },
   playActionContainer: {marginHorizontal: 10},
   bottomContainer: {},
-  slider: {
-    width: '100%',
-    height: 30,
+  infoContainer: {
+    flex: 1,
+  },
+  playerContainer: {
+    flex: 1,
+    flexDirection: 'row',
   },
 });
 
 class MusicControl extends PureComponent {
+  activeSong;
+
   constructor(props) {
     super(props);
     this.state = {
-      isPlay: false,
+      isPause: false,
+      isStop: false,
       containerHeight: new Animated.Value(0),
     };
 
@@ -46,9 +54,10 @@ class MusicControl extends PureComponent {
     this.stop = this.stop.bind(this);
     this.backward = this.backward.bind(this);
     this.forward = this.forward.bind(this);
+    this.seek = this.seek.bind(this);
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     const {setRef} = this.props;
 
     if (typeof setRef === 'function') {
@@ -60,6 +69,20 @@ class MusicControl extends PureComponent {
         stop: this.stop,
       });
     }
+
+    await TrackPlayer.addEventListener('playback-state', async ({state}) => {
+      if (state === STATE_PAUSED) {
+        const position = await TrackPlayer.getPosition();
+        const duration = await TrackPlayer.getDuration();
+        if (duration > 0 && position > 0) {
+          if (position === duration) {
+            this.setState({isPause: true, isStop: true});
+          } else {
+            this.setState({isPause: true, isStop: false});
+          }
+        }
+      }
+    });
   }
 
   show() {
@@ -88,16 +111,51 @@ class MusicControl extends PureComponent {
     });
   }
 
-  play() {
-    this.setState({isPlay: true});
+  play(data, force) {
+    this.activeSong = data;
+    if (this.state.isStop || force) {
+      this.setState({isPause: false, isStop: false}, async () => {
+        await TrackPlayer.stop();
+        await TrackPlayer.setupPlayer();
+
+        // Add a track to the queue
+        await TrackPlayer.add({
+          id: this.activeSong.get('trackId'),
+          url: this.activeSong.get('previewUrl'),
+          title: this.activeSong.get('trackName'),
+          artist: this.activeSong.get('artistName'),
+          artwork: this.activeSong.get('artworkUrl60'),
+        });
+
+        // Start playing it
+        await TrackPlayer.play();
+      });
+    } else {
+      this.setState({isPause: false, isStop: false}, async () => {
+        await TrackPlayer.play();
+      });
+    }
   }
 
   pause() {
-    this.setState({isPlay: false});
+    this.setState({isPause: true}, async () => {
+      await TrackPlayer.pause();
+    });
   }
 
   stop() {
-    this.setState({isPlay: false});
+    this.setState({isPause: false, isStop: true}, async () => {
+      this.activeSong = undefined;
+      await TrackPlayer.stop();
+    });
+  }
+
+  async seek(position) {
+    this.setState({isPause: false}, async () => {
+      const duration = await TrackPlayer.getDuration();
+      await TrackPlayer.seekTo(position * duration);
+      await TrackPlayer.play();
+    });
   }
 
   backward() {
@@ -109,37 +167,37 @@ class MusicControl extends PureComponent {
   }
 
   render() {
-    const {isPlay, containerHeight} = this.state;
+    const {isPause, containerHeight} = this.state;
+    console.log({cek: this.state});
     return (
       <Animated.View style={[styles.container, {height: containerHeight}]}>
         <View style={styles.topContainer}>
-          <TouchableOpacity
-            style={styles.actionContainer}
-            activeOpacity={0.8}
-            onPress={this.backward}>
-            <Icons name={'skip-backward'} size={35} />
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={[styles.actionContainer, styles.playActionContainer]}
-            activeOpacity={0.8}
-            onPress={isPlay ? this.pause : this.play}>
-            <Icons name={isPlay ? 'pause' : 'play'} size={35} />
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.actionContainer}
-            activeOpacity={0.8}
-            onPress={this.forward}>
-            <Icons name={'skip-forward'} size={35} />
-          </TouchableOpacity>
+          <View style={styles.infoContainer}>
+            <ActiveSongItem />
+          </View>
+          <View style={styles.playerContainer}>
+            <TouchableOpacity
+              style={styles.actionContainer}
+              activeOpacity={0.8}
+              onPress={this.backward}>
+              <Icons name={'skip-backward'} size={35} />
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[styles.actionContainer, styles.playActionContainer]}
+              activeOpacity={0.8}
+              onPress={isPause ? () => this.play(this.activeSong) : this.pause}>
+              <Icons name={isPause ? 'play' : 'pause'} size={35} />
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.actionContainer}
+              activeOpacity={0.8}
+              onPress={this.forward}>
+              <Icons name={'skip-forward'} size={35} />
+            </TouchableOpacity>
+          </View>
         </View>
         <View style={styles.bottomContainer}>
-          <Slider
-            style={styles.slider}
-            minimumValue={0}
-            maximumValue={1}
-            minimumTrackTintColor={Colors.taleGreen}
-            maximumTrackTintColor={Colors.border}
-          />
+          <ProgressBar onPause={this.pause} onSeek={this.seek} />
         </View>
       </Animated.View>
     );
