@@ -79,19 +79,28 @@ class MusicControl extends PureComponent {
     }
 
     // an event listener for player playback state
-    await TrackPlayer.addEventListener('playback-state', async ({state}) => {
-      if (state === STATE_PAUSED) {
-        const position = await TrackPlayer.getPosition();
-        const duration = await TrackPlayer.getDuration();
-        if (duration > 0 && position > 0) {
-          if (position === duration) {
-            this.setState({isPause: true, isStop: true});
-          } else {
-            this.setState({isPause: true, isStop: false});
+    this.playbackListener = await TrackPlayer.addEventListener(
+      'playback-state',
+      async ({state}) => {
+        if (state === STATE_PAUSED) {
+          const position = await TrackPlayer.getPosition();
+          const duration = await TrackPlayer.getDuration();
+          if (duration > 0 && position > 0) {
+            if (position === duration) {
+              this.setState({isPause: true, isStop: true});
+            } else {
+              this.setState({isPause: true, isStop: false});
+            }
           }
         }
-      }
-    });
+      },
+    );
+  }
+
+  async componentWillUnmount() {
+    await TrackPlayer.stop();
+    await TrackPlayer.destroy();
+    this.playbackListener.remove();
   }
 
   // action to start show animation
