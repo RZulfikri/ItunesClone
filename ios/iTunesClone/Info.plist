@@ -10,11 +10,6 @@
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-	<key>LSApplicationCategoryType</key>
-	<string>Multiple commands produce &apos;/Users/rahmatzulfikri/Library/Developer/Xcode/DerivedData/iTunesClone-cjfbumddpkhbcagaxwfutovjsrqq/Build/Products/Debug-iphonesimulator/iTunesClone.app/AntDesign.ttf&apos;:
-1) Target &apos;iTunesClone&apos; (project &apos;iTunesClone&apos;) has copy command from &apos;/Users/rahmatzulfikri/Projects/Mandiri/iTunesClone/node_modules/react-native-vector-icons/Fonts/AntDesign.ttf&apos; to &apos;/Users/rahmatzulfikri/Library/Developer/Xcode/DerivedData/iTunesClone-cjfbumddpkhbcagaxwfutovjsrqq/Build/Products/Debug-iphonesimulator/iTunesClone.app/AntDesign.ttf&apos;
-2) That command depends on command in Target &apos;iTunesClone&apos; (project &apos;iTunesClone&apos;): script phase “[CP] Copy Pods Resources”
-</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -27,6 +22,11 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>Multiple commands produce '/Users/rahmatzulfikri/Library/Developer/Xcode/DerivedData/iTunesClone-cjfbumddpkhbcagaxwfutovjsrqq/Build/Products/Debug-iphonesimulator/iTunesClone.app/AntDesign.ttf':
+1) Target 'iTunesClone' (project 'iTunesClone') has copy command from '/Users/rahmatzulfikri/Projects/Mandiri/iTunesClone/node_modules/react-native-vector-icons/Fonts/AntDesign.ttf' to '/Users/rahmatzulfikri/Library/Developer/Xcode/DerivedData/iTunesClone-cjfbumddpkhbcagaxwfutovjsrqq/Build/Products/Debug-iphonesimulator/iTunesClone.app/AntDesign.ttf'
+2) That command depends on command in Target 'iTunesClone' (project 'iTunesClone'): script phase “[CP] Copy Pods Resources”
+</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -42,20 +42,6 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
-	<key>UIRequiredDeviceCapabilities</key>
-	<array>
-		<string>armv7</string>
-	</array>
-	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>UIViewControllerBasedStatusBarAppearance</key>
-	<false/>
 	<key>UIAppFonts</key>
 	<array>
 		<string>AntDesign.ttf</string>
@@ -75,5 +61,17 @@
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
 	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>
