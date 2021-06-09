@@ -17,9 +17,15 @@ min IOS version = 10
 # Requirement to build
 Before run or build this project, if you have't setup react-native environtment, kindly check this react-native documentation https://reactnative.dev/docs/environment-setup
 
+# Run Test
+- run ```yarn install``` or ```npm install``` from terminal
+- run ```yarn updateSnapshot``` to create component screenshot & run test
+- run ```yarn test``` to run test
+- run ```yarn coverage``` to generate coverage file
+
 # How to build / run app
 - You must setup react-native environtment
-- do ```yarn install``` or ```npm install```
+- run ```yarn install``` or ```npm install``` from terminal
 
 A. Android
 - make sure emulator is active or your android device is connected to the PC (make sure that your device in the same network)
