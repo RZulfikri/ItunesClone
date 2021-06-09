@@ -1,13 +1,13 @@
 import {takeLatest, all, takeEvery} from 'redux-saga/effects';
-import {ItunesTypes} from '../Redux/ItunesRedux';
-import API from '../Services/Api';
-import {SearchArtistSaga, SetBackwardSaga, SetForwardSaga} from './ItunesSaga';
 
 /* ------------- Types ------------- */
+import {ItunesTypes} from '../Redux/ItunesRedux';
 
 /* ------------- Sagas ------------- */
+import {SearchArtistSaga, SetBackwardSaga, SetForwardSaga} from './ItunesSaga';
 
 /* ------------- API ------------- */
+import API from '../Services/Api';
 
 // The API we use is only used from Sagas, so we create it here and pass along
 // to the sagas which need it.
