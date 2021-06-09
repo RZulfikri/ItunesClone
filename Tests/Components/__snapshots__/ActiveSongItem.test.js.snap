@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActiveSongItem React-Redux Component should renders no music if activeProps not exist 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#E5E5E5",
+        "height": 35,
+        "marginRight": 10,
+        "width": 35,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "fontSize": 13,
+        "fontWeight": "700",
+      }
+    }
+  >
+    No Music
+  </Text>
+</View>
+`;
+
+exports[`ActiveSongItem React-Redux Component should renders song info if activeSong props exist 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Image
+    resizeMethod="resize"
+    resizeMode="cover"
+    source={
+      Object {
+        "uri": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2b/8f/782b8fa1-0e66-b76d-83c9-80e6013e25f4/source/100x100bb.jpg",
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "#E5E5E5",
+        "height": 35,
+        "marginRight": 10,
+        "width": 35,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "fontSize": 13,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Justin
+    </Text>
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "fontSize": 10,
+        }
+      }
+    >
+      Korn
+    </Text>
+  </View>
+</View>
+`;

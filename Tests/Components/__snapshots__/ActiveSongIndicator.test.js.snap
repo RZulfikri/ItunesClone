@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActiveSongIndicator React-Redux Component should not renders correctly if data.trackId not equal to activeSong.trackId 1`] = `null`;
+
+exports[`ActiveSongIndicator React-Redux Component should renders correctly if data.trackId equal to activeSong.trackId 1`] = `
+<Text
+  allowFontScaling={false}
+  style={
+    Array [
+      Object {
+        "color": "#000000",
+        "fontSize": 30,
+      },
+      undefined,
+      Object {
+        "fontFamily": "Material Design Icons",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      },
+      Object {},
+    ]
+  }
+>
+  󰕾
+</Text>
+`;

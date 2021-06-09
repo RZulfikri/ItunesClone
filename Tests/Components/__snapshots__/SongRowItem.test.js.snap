@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SongRowItem React-Redux Component should renders song info if data exist 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "borderBottomColor": "#E5E5E5",
+      "borderBottomWidth": 1,
+      "flexDirection": "row",
+      "opacity": 1,
+      "padding": 15,
+    }
+  }
+>
+  <Image
+    resizeMethod="resize"
+    resizeMode="cover"
+    source={
+      Object {
+        "uri": undefined,
+      }
+    }
+    style={
+      Object {
+        "height": 50,
+        "width": 50,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "fontWeight": "bold",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontSize": 12,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "fontSize": 10,
+        }
+      }
+    />
+  </View>
+  <View />
+</View>
+`;
