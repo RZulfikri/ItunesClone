@@ -1,0 +1,2523 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SongList React-Redux Component should renders list if data exist 1`] = `
+<RCTScrollView
+  ListEmptyComponent={[Function]}
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+  data={
+    Array [
+      Immutable.Map {
+        "artistId": 466532,
+        "artistViewUrl": "https://music.apple.com/us/artist/korn/466532?uo=4",
+        "isStreamable": true,
+        "trackCount": 14,
+        "trackId": 1165631048,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/54/57/70/545770b4-fa22-3d84-50fd-8007f97a4192/mzaf_8941792383747410636.plus.aac.p.m4a",
+        "collectionExplicitness": "explicit",
+        "collectionName": "Follow the Leader",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/justin/1165630592?i=1165631048&uo=4",
+        "primaryGenreName": "Hard Rock",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Korn",
+        "collectionCensoredName": "Follow the Leader",
+        "trackNumber": 10,
+        "kind": "song",
+        "releaseDate": "1998-08-18T12:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2b/8f/782b8fa1-0e66-b76d-83c9-80e6013e25f4/source/60x60bb.jpg",
+        "trackName": "Justin",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2b/8f/782b8fa1-0e66-b76d-83c9-80e6013e25f4/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2b/8f/782b8fa1-0e66-b76d-83c9-80e6013e25f4/source/30x30bb.jpg",
+        "collectionId": 1165630592,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 257547,
+        "trackViewUrl": "https://music.apple.com/us/album/justin/1165630592?i=1165631048&uo=4",
+        "trackCensoredName": "Justin",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 11,
+        "trackId": 1440661545,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/9b/68/12/9b681220-33d3-7ae8-063b-4202f8672aae/mzaf_2673125254790819583.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "My World 2.0 (Bonus Track Version)",
+        "collectionPrice": 7.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/baby-feat-ludacris/1440661543?i=1440661545&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "My World 2.0 (Bonus Track Version)",
+        "trackNumber": 1,
+        "kind": "song",
+        "releaseDate": "2010-01-18T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/60x60bb.jpg",
+        "trackName": "Baby (feat. Ludacris)",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/30x30bb.jpg",
+        "collectionId": 1440661543,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 214240,
+        "trackViewUrl": "https://music.apple.com/us/album/baby-feat-ludacris/1440661543?i=1440661545&uo=4",
+        "trackCensoredName": "Baby (feat. Ludacris)",
+      },
+      Immutable.Map {
+        "artistId": 6946251,
+        "artistViewUrl": "https://music.apple.com/us/artist/against-me/6946251?uo=4",
+        "isStreamable": true,
+        "trackCount": 14,
+        "trackId": 291447027,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview71/v4/86/1c/fb/861cfb69-a9b2-19e4-acde-be5d70426379/mzaf_8200512489279594063.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Searching for a Former Clarity",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/justin/291447020?i=291447027&uo=4",
+        "primaryGenreName": "Alternative",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Against Me!",
+        "collectionCensoredName": "Searching for a Former Clarity",
+        "trackNumber": 3,
+        "kind": "song",
+        "releaseDate": "2005-09-06T12:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/f0/57/2a/f0572ad9-c036-b650-609f-e85df8e3b558/source/60x60bb.jpg",
+        "trackName": "Justin",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/f0/57/2a/f0572ad9-c036-b650-609f-e85df8e3b558/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/f0/57/2a/f0572ad9-c036-b650-609f-e85df8e3b558/source/30x30bb.jpg",
+        "collectionId": 291447020,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 0.99,
+        "trackTimeMillis": 237360,
+        "trackViewUrl": "https://music.apple.com/us/album/justin/291447020?i=291447027&uo=4",
+        "trackCensoredName": "Justin",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 1,
+        "trackId": 1444886406,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/e9/18/ea/e918ea7d-37f3-bc61-f15f-ff90015e2170/mzaf_6688023471815054417.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Boyfriend (Dada Life Remix) - Single",
+        "collectionPrice": 1.29,
+        "collectionViewUrl": "https://music.apple.com/us/album/boyfriend-dada-life-remix/1444886402?i=1444886406&uo=4",
+        "primaryGenreName": "Dance",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "Boyfriend (Dada Life Remix) - Single",
+        "trackNumber": 1,
+        "kind": "song",
+        "releaseDate": "2012-06-12T12:00:00Z",
+        "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/94/63/89/94638932-9fad-8bf5-c215-ae435f040d12/source/60x60bb.jpg",
+        "trackName": "Boyfriend",
+        "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/94/63/89/94638932-9fad-8bf5-c215-ae435f040d12/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/94/63/89/94638932-9fad-8bf5-c215-ae435f040d12/source/30x30bb.jpg",
+        "collectionId": 1444886402,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 332253,
+        "trackViewUrl": "https://music.apple.com/us/album/boyfriend-dada-life-remix/1444886402?i=1444886406&uo=4",
+        "trackCensoredName": "Boyfriend (Dada Life Remix)",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 17,
+        "trackId": 1440650859,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/ce/4b/36/ce4b3617-40c6-7448-199a-3b7a0b5ec918/mzaf_3711342834832426198.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Believe (Deluxe Edition)",
+        "collectionPrice": 11.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/as-long-as-you-love-me-feat-big-sean/1440650852?i=1440650859&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "Believe (Deluxe Edition)",
+        "trackNumber": 3,
+        "kind": "song",
+        "releaseDate": "2012-06-15T12:00:00Z",
+        "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/60x60bb.jpg",
+        "trackName": "As Long As You Love Me (feat. Big Sean)",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/30x30bb.jpg",
+        "collectionId": 1440650852,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 229467,
+        "trackViewUrl": "https://music.apple.com/us/album/as-long-as-you-love-me-feat-big-sean/1440650852?i=1440650859&uo=4",
+        "trackCensoredName": "As Long As You Love Me (feat. Big Sean)",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 17,
+        "trackId": 1440650961,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/55/4c/be/554cbeca-97bc-3203-e692-0bfa7d4d39ee/mzaf_8539255982775834353.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Believe (Deluxe Edition)",
+        "collectionPrice": 11.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/beauty-and-a-beat-feat-nicki-minaj/1440650852?i=1440650961&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "Believe (Deluxe Edition)",
+        "trackNumber": 10,
+        "kind": "song",
+        "releaseDate": "2012-06-15T12:00:00Z",
+        "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/60x60bb.jpg",
+        "trackName": "Beauty and a Beat (feat. Nicki Minaj)",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/30x30bb.jpg",
+        "collectionId": 1440650852,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 227987,
+        "trackViewUrl": "https://music.apple.com/us/album/beauty-and-a-beat-feat-nicki-minaj/1440650852?i=1440650961&uo=4",
+        "trackCensoredName": "Beauty and a Beat (feat. Nicki Minaj)",
+      },
+      Immutable.Map {
+        "artistId": 102834,
+        "artistViewUrl": "https://music.apple.com/us/artist/luis-fonsi/102834?uo=4",
+        "isStreamable": true,
+        "trackCount": 15,
+        "trackId": 1447401626,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5f/ce/85/5fce856c-ccfe-dcdd-3419-00c030d8f97a/mzaf_4073938625616472669.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "VIDA",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/despacito-feat-justin-bieber-remix/1447401519?i=1447401626&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "collectionArtistName": "Luis Fonsi",
+        "currency": "USD",
+        "artistName": "Luis Fonsi & Daddy Yankee",
+        "collectionCensoredName": "VIDA",
+        "trackNumber": 13,
+        "kind": "song",
+        "releaseDate": "2017-04-17T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/32/c9/65/32c96534-a96d-e15e-9b46-cf8475751c34/source/60x60bb.jpg",
+        "trackName": "Despacito (feat. Justin Bieber)",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/32/c9/65/32c96534-a96d-e15e-9b46-cf8475751c34/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/32/c9/65/32c96534-a96d-e15e-9b46-cf8475751c34/source/30x30bb.jpg",
+        "collectionId": 1447401519,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 230435,
+        "trackViewUrl": "https://music.apple.com/us/album/despacito-feat-justin-bieber-remix/1447401519?i=1447401626&uo=4",
+        "trackCensoredName": "Despacito (feat. Justin Bieber) [Remix]",
+      },
+      Immutable.Map {
+        "artistId": 259760619,
+        "artistViewUrl": "https://music.apple.com/us/artist/sean-kingston/259760619?uo=4",
+        "isStreamable": true,
+        "trackCount": 1,
+        "trackId": 359966562,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/05/2f/d1/mzm.vlbwajpk.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Eenie Meenie - Single",
+        "collectionViewUrl": "https://music.apple.com/us/album/eenie-meenie/359966550?i=359966562&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Sean Kingston & Justin Bieber",
+        "collectionCensoredName": "Eenie Meenie - Single",
+        "trackNumber": 1,
+        "kind": "song",
+        "releaseDate": "2010-03-19T07:00:00Z",
+        "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/7a/f5/26/7af526b3-ff21-43d3-7e03-a25f7011b715/source/60x60bb.jpg",
+        "trackName": "Eenie Meenie",
+        "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/7a/f5/26/7af526b3-ff21-43d3-7e03-a25f7011b715/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/7a/f5/26/7af526b3-ff21-43d3-7e03-a25f7011b715/source/30x30bb.jpg",
+        "collectionId": 359966550,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 201880,
+        "trackViewUrl": "https://music.apple.com/us/album/eenie-meenie/359966550?i=359966562&uo=4",
+        "trackCensoredName": "Eenie Meenie",
+      },
+      Immutable.Map {
+        "artistId": 1352449404,
+        "artistViewUrl": "https://music.apple.com/us/artist/jay-z/1352449404?uo=4",
+        "isStreamable": true,
+        "trackCount": 16,
+        "trackId": 1440925418,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/5d/f6/d9/5df6d95c-fea7-8213-d62a-9ede6c802936/mzaf_3818241269730475244.plus.aac.p.m4a",
+        "collectionExplicitness": "explicit",
+        "collectionName": "Magna Carta... Holy Grail",
+        "collectionPrice": 13.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/holy-grail-feat-justin-timberlake/1440925178?i=1440925418&uo=4",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "wrapperType": "track",
+        "contentAdvisoryRating": "Explicit",
+        "currency": "USD",
+        "artistName": "JAY-Z",
+        "collectionCensoredName": "Magna Carta... Holy Grail",
+        "trackNumber": 1,
+        "kind": "song",
+        "releaseDate": "2013-07-04T12:00:00Z",
+        "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/c9/94/87/c9948760-d4db-0981-955c-75f38e2079d3/source/60x60bb.jpg",
+        "trackName": "Holy Grail (feat. Justin Timberlake)",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/c9/94/87/c9948760-d4db-0981-955c-75f38e2079d3/source/100x100bb.jpg",
+        "trackExplicitness": "explicit",
+        "country": "USA",
+        "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/c9/94/87/c9948760-d4db-0981-955c-75f38e2079d3/source/30x30bb.jpg",
+        "collectionId": 1440925178,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 338370,
+        "trackViewUrl": "https://music.apple.com/us/album/holy-grail-feat-justin-timberlake/1440925178?i=1440925418&uo=4",
+        "trackCensoredName": "Holy Grail (feat. Justin Timberlake)",
+      },
+      Immutable.Map {
+        "artistId": 14967,
+        "artistViewUrl": "https://music.apple.com/us/artist/t-i/14967?uo=4",
+        "isStreamable": true,
+        "trackCount": 18,
+        "trackId": 1260881191,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/ad/18/1e/ad181e19-30e3-b215-a720-d181fd41d81e/mzaf_3216550861738679050.plus.aac.p.m4a",
+        "collectionExplicitness": "explicit",
+        "collectionName": "Paper Trail (Deluxe Version)",
+        "collectionPrice": 13.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/dead-and-gone-feat-justin-timberlake/1260880949?i=1260881191&uo=4",
+        "primaryGenreName": "Rap",
+        "wrapperType": "track",
+        "contentAdvisoryRating": "Explicit",
+        "currency": "USD",
+        "artistName": "T.I.",
+        "collectionCensoredName": "Paper Trail (Deluxe Version)",
+        "trackNumber": 16,
+        "kind": "song",
+        "releaseDate": "2008-09-29T12:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1e/75/b9/1e75b945-ba40-33ca-29e9-cca66609e353/source/60x60bb.jpg",
+        "trackName": "Dead and Gone (feat. Justin Timberlake)",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1e/75/b9/1e75b945-ba40-33ca-29e9-cca66609e353/source/100x100bb.jpg",
+        "trackExplicitness": "explicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1e/75/b9/1e75b945-ba40-33ca-29e9-cca66609e353/source/30x30bb.jpg",
+        "collectionId": 1260880949,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 299747,
+        "trackViewUrl": "https://music.apple.com/us/album/dead-and-gone-feat-justin-timberlake/1260880949?i=1260881191&uo=4",
+        "trackCensoredName": "Dead and Gone (feat. Justin Timberlake)",
+      },
+      Immutable.Map {
+        "artistId": 918783022,
+        "artistViewUrl": "https://music.apple.com/us/artist/jack-%C3%BC/918783022?uo=4",
+        "isStreamable": true,
+        "trackCount": 10,
+        "trackId": 971262282,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music5/v4/3c/7c/ec/3c7cec45-d446-c2ce-30d7-0272ea7edb86/mzaf_4969290192343134340.plus.aac.p.m4a",
+        "collectionExplicitness": "explicit",
+        "collectionName": "Skrillex and Diplo present Jack Ü",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/where-are-%C3%BC-now-with-justin-bieber-feat-justin-bieber/971262235?i=971262282&uo=4",
+        "primaryGenreName": "Dance",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Jack Ü, Skrillex & Diplo",
+        "collectionCensoredName": "Skrillex and Diplo present Jack Ü",
+        "trackNumber": 9,
+        "kind": "song",
+        "releaseDate": "2015-02-27T08:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/6e/f4/4a/6ef44aa0-28c1-e079-4904-e641f058882a/source/60x60bb.jpg",
+        "trackName": "Where Are Ü Now (with Justin Bieber) [feat. Justin Bieber]",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/6e/f4/4a/6ef44aa0-28c1-e079-4904-e641f058882a/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/6e/f4/4a/6ef44aa0-28c1-e079-4904-e641f058882a/source/30x30bb.jpg",
+        "collectionId": 971262235,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 250286,
+        "trackViewUrl": "https://music.apple.com/us/album/where-are-%C3%BC-now-with-justin-bieber-feat-justin-bieber/971262235?i=971262282&uo=4",
+        "trackCensoredName": "Where Are Ü Now (with Justin Bieber) [feat. Justin Bieber]",
+      },
+      Immutable.Map {
+        "artistId": 398128,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-timberlake/398128?uo=4",
+        "isStreamable": true,
+        "trackCount": 15,
+        "trackId": 400946435,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/07/30/fb/0730fb89-c2be-8437-c1ff-759aa6e0ccf5/mzaf_1251170852058138687.plus.aac.p.m4a",
+        "collectionExplicitness": "cleaned",
+        "collectionName": "FutureSex/LoveSounds (Deluxe Version)",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/sexyback-feat-timbaland/400946401?i=400946435&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "contentAdvisoryRating": "Clean",
+        "collectionArtistName": "Justin Timberlake",
+        "currency": "USD",
+        "artistName": "Justin Timberlake & Timbaland",
+        "collectionCensoredName": "FutureSex/LoveSounds",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2006-07-18T07:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/ce/85/59ce8585-34bf-7d16-a699-85fd0a65e339/source/60x60bb.jpg",
+        "trackName": "SexyBack (feat. Timbaland)",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/ce/85/59ce8585-34bf-7d16-a699-85fd0a65e339/source/100x100bb.jpg",
+        "trackExplicitness": "cleaned",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/59/ce/85/59ce8585-34bf-7d16-a699-85fd0a65e339/source/30x30bb.jpg",
+        "collectionId": 400946401,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 242800,
+        "trackViewUrl": "https://music.apple.com/us/album/sexyback-feat-timbaland/400946401?i=400946435&uo=4",
+        "trackCensoredName": "SexyBack (feat. Timbaland)",
+      },
+      Immutable.Map {
+        "artistId": 3342627,
+        "artistViewUrl": "https://music.apple.com/us/artist/timbaland/3342627?uo=4",
+        "isStreamable": true,
+        "trackCount": 17,
+        "trackId": 1443188823,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/03/a6/17/03a61775-972f-6bd7-4e02-c5ef9b1eb2e8/mzaf_1249192194499604056.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Shock Value II (Deluxe Edition)",
+        "collectionPrice": 11.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/carry-out-feat-justin-timberlake/1443188811?i=1443188823&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Timbaland",
+        "collectionCensoredName": "Shock Value II (Deluxe Edition)",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2009-12-01T12:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/57/b2/d7/57b2d7a7-3d6d-199e-872e-8527a8a86c9a/source/60x60bb.jpg",
+        "trackName": "Carry Out (feat. Justin Timberlake)",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/57/b2/d7/57b2d7a7-3d6d-199e-872e-8527a8a86c9a/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/57/b2/d7/57b2d7a7-3d6d-199e-872e-8527a8a86c9a/source/30x30bb.jpg",
+        "collectionId": 1443188811,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 232467,
+        "trackViewUrl": "https://music.apple.com/us/album/carry-out-feat-justin-timberlake/1443188811?i=1443188823&uo=4",
+        "trackCensoredName": "Carry Out (feat. Justin Timberlake)",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 8,
+        "trackId": 1440616468,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/15/c0/d5/15c0d576-4af7-7277-547a-575481545121/mzaf_3779195003006583750.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "My World (Bonus Track & Videos Version)",
+        "collectionPrice": 11.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/one-time/1440616467?i=1440616468&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "My World",
+        "trackNumber": 1,
+        "kind": "song",
+        "releaseDate": "2009-05-18T12:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/7c/22/f67c2271-3850-81a3-91d3-aa19f52ed8c1/source/60x60bb.jpg",
+        "trackName": "One Time",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/7c/22/f67c2271-3850-81a3-91d3-aa19f52ed8c1/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/7c/22/f67c2271-3850-81a3-91d3-aa19f52ed8c1/source/30x30bb.jpg",
+        "collectionId": 1440616467,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 215867,
+        "trackViewUrl": "https://music.apple.com/us/album/one-time/1440616467?i=1440616468&uo=4",
+        "trackCensoredName": "One Time",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 11,
+        "trackId": 1440661548,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/ba/0e/cf/ba0ecfca-20ec-ff7a-348a-57253952273f/mzaf_1404584350022315594.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "My World 2.0 (Bonus Track Version)",
+        "collectionPrice": 7.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/somebody-to-love/1440661543?i=1440661548&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "My World 2.0 (Bonus Track Version)",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2010-03-19T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/60x60bb.jpg",
+        "trackName": "Somebody to Love",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/30x30bb.jpg",
+        "collectionId": 1440661543,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 220920,
+        "trackViewUrl": "https://music.apple.com/us/album/somebody-to-love/1440661543?i=1440661548&uo=4",
+        "trackCensoredName": "Somebody to Love",
+      },
+      Immutable.Map {
+        "artistId": 3342627,
+        "artistViewUrl": "https://music.apple.com/us/artist/timbaland/3342627?uo=4",
+        "isStreamable": true,
+        "trackCount": 17,
+        "trackId": 1440748877,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/ba/37/36/ba3736e4-bb3e-286e-8f48-173b2dfe899a/mzaf_8045901945782913142.plus.aac.p.m4a",
+        "collectionExplicitness": "explicit",
+        "collectionName": "Shock Value",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/give-it-to-me-feat-justin-timberlake-nelly-furtado/1440748593?i=1440748877&uo=4",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "wrapperType": "track",
+        "contentAdvisoryRating": "Explicit",
+        "currency": "USD",
+        "artistName": "Timbaland",
+        "collectionCensoredName": "Shock Value",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2007-02-06T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/8b/41/6f/8b416f6e-5d1f-d909-3702-cbbdc529764d/source/60x60bb.jpg",
+        "trackName": "Give It to Me (feat. Justin Timberlake & Nelly Furtado)",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/8b/41/6f/8b416f6e-5d1f-d909-3702-cbbdc529764d/source/100x100bb.jpg",
+        "trackExplicitness": "explicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/8b/41/6f/8b416f6e-5d1f-d909-3702-cbbdc529764d/source/30x30bb.jpg",
+        "collectionId": 1440748593,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 234027,
+        "trackViewUrl": "https://music.apple.com/us/album/give-it-to-me-feat-justin-timberlake-nelly-furtado/1440748593?i=1440748877&uo=4",
+        "trackCensoredName": "Give It to Me (feat. Justin Timberlake & Nelly Furtado)",
+      },
+      Immutable.Map {
+        "artistId": 585837319,
+        "artistViewUrl": "https://music.apple.com/us/artist/sage-the-gemini/585837319?uo=4",
+        "isStreamable": true,
+        "trackCount": 16,
+        "trackId": 1434900960,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/b0/54/af/b054af76-603f-a48e-d1d1-6763696fcd89/mzaf_7754726044590456035.plus.aac.p.m4a",
+        "collectionExplicitness": "explicit",
+        "collectionName": "Remember Me (Deluxe Booklet Version)",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/gas-pedal-feat-justin-bieber-iamsu-remix/1434900742?i=1434900960&uo=4",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "wrapperType": "track",
+        "contentAdvisoryRating": "Explicit",
+        "currency": "USD",
+        "artistName": "Sage the Gemini",
+        "collectionCensoredName": "Remember Me (Deluxe Booklet Version)",
+        "trackNumber": 16,
+        "kind": "song",
+        "releaseDate": "2013-12-20T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/7c/8e/22/7c8e2277-99f3-73d8-85b2-34427d295951/source/60x60bb.jpg",
+        "trackName": "Gas Pedal (feat. Justin Bieber & Iamsu!)",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/7c/8e/22/7c8e2277-99f3-73d8-85b2-34427d295951/source/100x100bb.jpg",
+        "trackExplicitness": "explicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/7c/8e/22/7c8e2277-99f3-73d8-85b2-34427d295951/source/30x30bb.jpg",
+        "collectionId": 1434900742,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 279867,
+        "trackViewUrl": "https://music.apple.com/us/album/gas-pedal-feat-justin-bieber-iamsu-remix/1434900742?i=1434900960&uo=4",
+        "trackCensoredName": "Gas Pedal (feat. Justin Bieber & Iamsu!) [Remix]",
+      },
+      Immutable.Map {
+        "artistId": 398128,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-timberlake/398128?uo=4",
+        "isStreamable": true,
+        "trackCount": 13,
+        "trackId": 252606598,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ee/ee/c4/eeeec498-c00d-83c4-cfba-2dc6ea99f544/mzaf_10661370631928309100.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Justified",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/rock-your-body/252606580?i=252606598&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Timberlake",
+        "collectionCensoredName": "Justified",
+        "trackNumber": 6,
+        "kind": "song",
+        "releaseDate": "2002-11-05T08:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9e/f7/53/9ef7538e-563d-26a0-7021-8d2ddd306d0c/source/60x60bb.jpg",
+        "trackName": "Rock Your Body",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9e/f7/53/9ef7538e-563d-26a0-7021-8d2ddd306d0c/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9e/f7/53/9ef7538e-563d-26a0-7021-8d2ddd306d0c/source/30x30bb.jpg",
+        "collectionId": 252606580,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 267267,
+        "trackViewUrl": "https://music.apple.com/us/album/rock-your-body/252606580?i=252606598&uo=4",
+        "trackCensoredName": "Rock Your Body",
+      },
+      Immutable.Map {
+        "artistId": 20044,
+        "artistViewUrl": "https://music.apple.com/us/artist/madonna/20044?uo=4",
+        "isStreamable": true,
+        "trackCount": 15,
+        "trackId": 278674476,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/96/30/a4/9630a426-191b-8f7b-7831-3cea3f47fe2b/mzaf_3174628572431736277.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Hard Candy (Deluxe Version)",
+        "collectionPrice": 14.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/4-minutes-feat-justin-timberlake-timbaland/278674439?i=278674476&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Madonna",
+        "collectionCensoredName": "Hard Candy (Deluxe Version)",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2008-03-17T07:00:00Z",
+        "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/63/ce/40/63ce4047-0f21-053f-6254-b798ab31c701/source/60x60bb.jpg",
+        "trackName": "4 Minutes (feat. Justin Timberlake & Timbaland)",
+        "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/63/ce/40/63ce4047-0f21-053f-6254-b798ab31c701/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/63/ce/40/63ce4047-0f21-053f-6254-b798ab31c701/source/30x30bb.jpg",
+        "collectionId": 278674439,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 246213,
+        "trackViewUrl": "https://music.apple.com/us/album/4-minutes-feat-justin-timberlake-timbaland/278674439?i=278674476&uo=4",
+        "trackCensoredName": "4 Minutes (feat. Justin Timberlake & Timbaland)",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 8,
+        "trackId": 1440616473,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/68/8e/70/688e702a-f04d-11df-2dcf-869bbd768bb7/mzaf_6371357967013863631.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "My World (Bonus Track & Videos Version)",
+        "collectionPrice": 11.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/one-less-lonely-girl/1440616467?i=1440616473&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "My World",
+        "trackNumber": 5,
+        "kind": "song",
+        "releaseDate": "2009-10-06T12:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/7c/22/f67c2271-3850-81a3-91d3-aa19f52ed8c1/source/60x60bb.jpg",
+        "trackName": "One Less Lonely Girl",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/7c/22/f67c2271-3850-81a3-91d3-aa19f52ed8c1/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/7c/22/f67c2271-3850-81a3-91d3-aa19f52ed8c1/source/30x30bb.jpg",
+        "collectionId": 1440616467,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 229107,
+        "trackViewUrl": "https://music.apple.com/us/album/one-less-lonely-girl/1440616467?i=1440616473&uo=4",
+        "trackCensoredName": "One Less Lonely Girl",
+      },
+      Immutable.Map {
+        "collectionArtistId": 80204262,
+        "artistId": 398128,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-timberlake/398128?uo=4",
+        "isStreamable": true,
+        "trackCount": 12,
+        "trackId": 1154239184,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/37/cf/ac/37cfac19-6662-8a4e-599c-e774446a4dc4/mzaf_17131772471848580800.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Trolls (Original Motion Picture Soundtrack)",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/cant-stop-the-feeling/1154238159?i=1154239184&uo=4",
+        "primaryGenreName": "Soundtrack",
+        "wrapperType": "track",
+        "collectionArtistName": "Various Artists",
+        "currency": "USD",
+        "artistName": "Justin Timberlake",
+        "collectionCensoredName": "Trolls (Original Motion Picture Soundtrack)",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2016-05-06T07:00:00Z",
+        "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/56/a5/be/56a5be25-a9d3-2bcf-dd88-aa5d99280cb5/source/60x60bb.jpg",
+        "trackName": "CAN'T STOP THE FEELING!",
+        "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/56/a5/be/56a5be25-a9d3-2bcf-dd88-aa5d99280cb5/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/56/a5/be/56a5be25-a9d3-2bcf-dd88-aa5d99280cb5/source/30x30bb.jpg",
+        "collectionId": 1154238159,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 237544,
+        "trackViewUrl": "https://music.apple.com/us/album/cant-stop-the-feeling/1154238159?i=1154239184&uo=4",
+        "trackCensoredName": "CAN'T STOP THE FEELING!",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 8,
+        "trackId": 1440616477,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/58/17/68/5817688d-57d5-5185-4108-3325e8125942/mzaf_498142859350101947.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "My World (Bonus Track & Videos Version)",
+        "collectionPrice": 11.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/love-me/1440616467?i=1440616477&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "My World",
+        "trackNumber": 7,
+        "kind": "song",
+        "releaseDate": "2009-10-26T12:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/7c/22/f67c2271-3850-81a3-91d3-aa19f52ed8c1/source/60x60bb.jpg",
+        "trackName": "Love Me",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/7c/22/f67c2271-3850-81a3-91d3-aa19f52ed8c1/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/7c/22/f67c2271-3850-81a3-91d3-aa19f52ed8c1/source/30x30bb.jpg",
+        "collectionId": 1440616467,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 191573,
+        "trackViewUrl": "https://music.apple.com/us/album/love-me/1440616467?i=1440616477&uo=4",
+        "trackCensoredName": "Love Me",
+      },
+      Immutable.Map {
+        "artistId": 315761934,
+        "artistViewUrl": "https://music.apple.com/us/artist/major-lazer/315761934?uo=4",
+        "isStreamable": true,
+        "trackCount": 1,
+        "trackId": 1445302386,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/7f/f4/7e/7ff47ea7-3507-c4b4-887e-d5ece40ba421/mzaf_8339954022471621476.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Cold Water (feat. Justin Bieber & MØ) - Single",
+        "collectionPrice": 1.29,
+        "collectionViewUrl": "https://music.apple.com/us/album/cold-water-feat-justin-bieber-m%C3%B8/1445302383?i=1445302386&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Major Lazer",
+        "collectionCensoredName": "Cold Water (feat. Justin Bieber & MØ) - Single",
+        "trackNumber": 1,
+        "kind": "song",
+        "releaseDate": "2016-07-22T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/54/8a/e0/548ae062-a8a9-5fcc-d809-43bca1d5d573/source/60x60bb.jpg",
+        "trackName": "Cold Water (feat. Justin Bieber & MØ)",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/54/8a/e0/548ae062-a8a9-5fcc-d809-43bca1d5d573/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/54/8a/e0/548ae062-a8a9-5fcc-d809-43bca1d5d573/source/30x30bb.jpg",
+        "collectionId": 1445302383,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 185360,
+        "trackViewUrl": "https://music.apple.com/us/album/cold-water-feat-justin-bieber-m%C3%B8/1445302383?i=1445302386&uo=4",
+        "trackCensoredName": "Cold Water (feat. Justin Bieber & MØ)",
+      },
+      Immutable.Map {
+        "artistId": 20044,
+        "artistViewUrl": "https://music.apple.com/us/artist/madonna/20044?uo=4",
+        "isStreamable": true,
+        "trackCount": 38,
+        "trackId": 1490037886,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0f/b5/11/0fb51133-6800-d11d-1132-be0690f33e8a/mzaf_11355502750845442824.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Celebration (Deluxe Version) [Bonus Tracks]",
+        "collectionPrice": 19.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/4-minutes-feat-justin-timberlake-timbaland/1490037880?i=1490037886&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Madonna",
+        "collectionCensoredName": "Celebration (Deluxe Version)",
+        "trackNumber": 4,
+        "kind": "song",
+        "releaseDate": "2008-03-17T12:00:00Z",
+        "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/69/f6/54/69f65475-944e-76bd-4266-737cf8d2cb61/source/60x60bb.jpg",
+        "trackName": "4 Minutes (feat. Justin Timberlake & Timbaland)",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/69/f6/54/69f65475-944e-76bd-4266-737cf8d2cb61/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/69/f6/54/69f65475-944e-76bd-4266-737cf8d2cb61/source/30x30bb.jpg",
+        "collectionId": 1490037880,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 189693,
+        "trackViewUrl": "https://music.apple.com/us/album/4-minutes-feat-justin-timberlake-timbaland/1490037880?i=1490037886&uo=4",
+        "trackCensoredName": "4 Minutes (feat. Justin Timberlake & Timbaland)",
+      },
+      Immutable.Map {
+        "artistId": 398128,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-timberlake/398128?uo=4",
+        "isStreamable": true,
+        "trackCount": 12,
+        "trackId": 1441493469,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/4b/c6/da/4bc6da80-6a6e-1e49-7e7b-2c1ed584eb7e/mzaf_2515806471291316085.plus.aac.p.m4a",
+        "collectionExplicitness": "explicit",
+        "collectionName": "The 20/20 Experience (Deluxe Version)",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/suit-tie-feat-jay-z/1441493446?i=1441493469&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "contentAdvisoryRating": "Explicit",
+        "currency": "USD",
+        "artistName": "Justin Timberlake",
+        "collectionCensoredName": "The 20/20 Experience (Deluxe Version)",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2013-01-15T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/52/92/a9/5292a917-40c9-18a4-78bf-b94216ad8f27/source/60x60bb.jpg",
+        "trackName": "Suit & Tie (feat. JAY-Z)",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/52/92/a9/5292a917-40c9-18a4-78bf-b94216ad8f27/source/100x100bb.jpg",
+        "trackExplicitness": "explicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/52/92/a9/5292a917-40c9-18a4-78bf-b94216ad8f27/source/30x30bb.jpg",
+        "collectionId": 1441493446,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 326272,
+        "trackViewUrl": "https://music.apple.com/us/album/suit-tie-feat-jay-z/1441493446?i=1441493469&uo=4",
+        "trackCensoredName": "Suit & Tie (feat. JAY-Z)",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 10,
+        "trackId": 1472491703,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ad/de/a7/addea7d5-e27c-b212-0024-4daed5fc319a/mzaf_18366707125620272593.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "My World 2.0",
+        "collectionPrice": 7.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/baby-feat-ludacris/1472491692?i=1472491703&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "My World 2.0",
+        "trackNumber": 1,
+        "kind": "song",
+        "releaseDate": "2010-01-18T12:00:00Z",
+        "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/69/34/47/6934477d-5f4c-526b-2af3-63dc9e137a25/source/60x60bb.jpg",
+        "trackName": "Baby (feat. Ludacris)",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/69/34/47/6934477d-5f4c-526b-2af3-63dc9e137a25/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/69/34/47/6934477d-5f4c-526b-2af3-63dc9e137a25/source/30x30bb.jpg",
+        "collectionId": 1472491692,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 214240,
+        "trackViewUrl": "https://music.apple.com/us/album/baby-feat-ludacris/1472491692?i=1472491703&uo=4",
+        "trackCensoredName": "Baby (feat. Ludacris)",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 11,
+        "trackId": 1440661551,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/fc/69/26/fc692614-8910-7a77-0499-591422f74ded/mzaf_6398579758166073280.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "My World 2.0 (Bonus Track Version)",
+        "collectionPrice": 7.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/u-smile/1440661543?i=1440661551&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "My World 2.0 (Bonus Track Version)",
+        "trackNumber": 4,
+        "kind": "song",
+        "releaseDate": "2010-03-19T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/60x60bb.jpg",
+        "trackName": "U Smile",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/30x30bb.jpg",
+        "collectionId": 1440661543,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 196907,
+        "trackViewUrl": "https://music.apple.com/us/album/u-smile/1440661543?i=1440661551&uo=4",
+        "trackCensoredName": "U Smile",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 17,
+        "trackId": 1440650857,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/ed/6d/e8/ed6de81f-fd07-8535-e1f2-ae802069a13f/mzaf_3469181514306715405.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Believe (Deluxe Edition)",
+        "collectionPrice": 11.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/boyfriend/1440650852?i=1440650857&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "Believe (Deluxe Edition)",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2012-03-26T12:00:00Z",
+        "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/60x60bb.jpg",
+        "trackName": "Boyfriend",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/30x30bb.jpg",
+        "collectionId": 1440650852,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 171333,
+        "trackViewUrl": "https://music.apple.com/us/album/boyfriend/1440650852?i=1440650857&uo=4",
+        "trackCensoredName": "Boyfriend",
+      },
+      Immutable.Map {
+        "artistId": 272639185,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-moore/272639185?uo=4",
+        "isStreamable": true,
+        "trackCount": 10,
+        "trackId": 1440915842,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/36/83/74/3683748b-3a7c-6ae8-3881-205b2afb1a03/mzaf_7636766510103511246.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Justin Moore",
+        "collectionPrice": 5.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/small-town-usa/1440915822?i=1440915842&uo=4",
+        "primaryGenreName": "Country",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Moore",
+        "collectionCensoredName": "Justin Moore",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2009-02-10T12:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/85/91/fd/8591fd40-c8bd-ba0c-b155-352295503f3f/source/60x60bb.jpg",
+        "trackName": "Small Town USA",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/85/91/fd/8591fd40-c8bd-ba0c-b155-352295503f3f/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/85/91/fd/8591fd40-c8bd-ba0c-b155-352295503f3f/source/30x30bb.jpg",
+        "collectionId": 1440915822,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 218853,
+        "trackViewUrl": "https://music.apple.com/us/album/small-town-usa/1440915822?i=1440915842&uo=4",
+        "trackCensoredName": "Small Town USA",
+      },
+      Immutable.Map {
+        "artistId": 14317116,
+        "artistViewUrl": "https://music.apple.com/us/artist/ciara/14317116?uo=4",
+        "isStreamable": true,
+        "trackCount": 1,
+        "trackId": 307564849,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/d9/54/f9/mzm.bdtaxebl.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Love Sex Magic (feat. Justin Timberlake) - Single",
+        "collectionPrice": 1.29,
+        "collectionViewUrl": "https://music.apple.com/us/album/love-sex-magic-feat-justin-timberlake/307564775?i=307564849&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Ciara",
+        "collectionCensoredName": "Love Sex Magic (feat. Justin Timberlake) - Single",
+        "trackNumber": 1,
+        "kind": "song",
+        "releaseDate": "2009-03-03T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/db/8b/2b/db8b2b57-82b7-ee53-8198-645c2c95f88a/source/60x60bb.jpg",
+        "trackName": "Love Sex Magic (feat. Justin Timberlake)",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/db/8b/2b/db8b2b57-82b7-ee53-8198-645c2c95f88a/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/db/8b/2b/db8b2b57-82b7-ee53-8198-645c2c95f88a/source/30x30bb.jpg",
+        "collectionId": 307564775,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 220040,
+        "trackViewUrl": "https://music.apple.com/us/album/love-sex-magic-feat-justin-timberlake/307564775?i=307564849&uo=4",
+        "trackCensoredName": "Love Sex Magic (feat. Justin Timberlake)",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 11,
+        "trackId": 1440661561,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/17/db/e0/17dbe05f-a960-7964-9a62-7c0e58966155/mzaf_3669171287070821409.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "My World 2.0 (Bonus Track Version)",
+        "collectionPrice": 7.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/that-should-be-me/1440661543?i=1440661561&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "My World 2.0 (Bonus Track Version)",
+        "trackNumber": 10,
+        "kind": "song",
+        "releaseDate": "2010-03-19T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/60x60bb.jpg",
+        "trackName": "That Should Be Me",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/30x30bb.jpg",
+        "collectionId": 1440661543,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 232720,
+        "trackViewUrl": "https://music.apple.com/us/album/that-should-be-me/1440661543?i=1440661561&uo=4",
+        "trackCensoredName": "That Should Be Me",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 19,
+        "trackId": 1440829606,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/1c/2a/46/1c2a4614-5c43-2673-c9f3-4feee0209e73/mzaf_1506704496842867875.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Purpose (Deluxe)",
+        "collectionPrice": 11.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/what-do-you-mean/1440829460?i=1440829606&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "Purpose (Deluxe)",
+        "trackNumber": 3,
+        "kind": "song",
+        "releaseDate": "2015-08-28T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/3e/14/6f/3e146fd5-a6df-c1b3-90cf-f66c3ccb0486/source/60x60bb.jpg",
+        "trackName": "What Do You Mean?",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/3e/14/6f/3e146fd5-a6df-c1b3-90cf-f66c3ccb0486/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/3e/14/6f/3e146fd5-a6df-c1b3-90cf-f66c3ccb0486/source/30x30bb.jpg",
+        "collectionId": 1440829460,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 205676,
+        "trackViewUrl": "https://music.apple.com/us/album/what-do-you-mean/1440829460?i=1440829606&uo=4",
+        "trackCensoredName": "What Do You Mean?",
+      },
+      Immutable.Map {
+        "artistId": 125742557,
+        "artistViewUrl": "https://music.apple.com/us/artist/dj-snake/125742557?uo=4",
+        "isStreamable": true,
+        "trackCount": 14,
+        "trackId": 1440867817,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/44/51/62/445162af-8c4f-330c-2608-b771c3ca46f5/mzaf_8819150487386681340.plus.aac.p.m4a",
+        "collectionExplicitness": "explicit",
+        "collectionName": "Encore",
+        "collectionPrice": 8.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/let-me-love-you-feat-justin-bieber/1440867448?i=1440867817&uo=4",
+        "primaryGenreName": "Dance",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "DJ Snake",
+        "collectionCensoredName": "Encore",
+        "trackNumber": 13,
+        "kind": "song",
+        "releaseDate": "2016-08-05T12:00:00Z",
+        "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/67/db/dc/67dbdc8f-beee-df0b-bdd8-49fc9f795eb1/source/60x60bb.jpg",
+        "trackName": "Let Me Love You (feat. Justin Bieber)",
+        "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/67/db/dc/67dbdc8f-beee-df0b-bdd8-49fc9f795eb1/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/67/db/dc/67dbdc8f-beee-df0b-bdd8-49fc9f795eb1/source/30x30bb.jpg",
+        "collectionId": 1440867448,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 205950,
+        "trackViewUrl": "https://music.apple.com/us/album/let-me-love-you-feat-justin-bieber/1440867448?i=1440867817&uo=4",
+        "trackCensoredName": "Let Me Love You (feat. Justin Bieber)",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 7,
+        "trackId": 1440744931,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/61/e5/e4/61e5e420-ce26-df44-a6d5-25f41c379938/mzaf_387449239550554233.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Never Say Never (The Remixes) - EP",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/never-say-never-feat-jaden-smith/1440744913?i=1440744931&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "Never Say Never (The Remixes) - EP",
+        "trackNumber": 1,
+        "kind": "song",
+        "releaseDate": "2010-06-08T12:00:00Z",
+        "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/36/da/f1/36daf135-e656-47c1-626f-b0e4b636c8f2/source/60x60bb.jpg",
+        "trackName": "Never Say Never (feat. Jaden Smith)",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/36/da/f1/36daf135-e656-47c1-626f-b0e4b636c8f2/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/36/da/f1/36daf135-e656-47c1-626f-b0e4b636c8f2/source/30x30bb.jpg",
+        "collectionId": 1440744913,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 227853,
+        "trackViewUrl": "https://music.apple.com/us/album/never-say-never-feat-jaden-smith/1440744913?i=1440744931&uo=4",
+        "trackCensoredName": "Never Say Never (feat. Jaden Smith)",
+      },
+      Immutable.Map {
+        "artistId": 1450522204,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin/1450522204?uo=4",
+        "isStreamable": true,
+        "trackCount": 12,
+        "trackId": 281470550,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2a/34/e6/2a34e68c-7deb-083c-9fc3-853e88ccd5de/mzaf_7577435678963363432.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "My Eyes Adore You",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/leaving-on-a-jet-plane/281470359?i=281470550&uo=4",
+        "primaryGenreName": "Reggae",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin",
+        "collectionCensoredName": "My Eyes Adore You",
+        "trackNumber": 7,
+        "kind": "song",
+        "releaseDate": "2003-03-03T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/24/9c/39/249c39a8-3d00-9209-d6ed-a86f5f4967a1/source/60x60bb.jpg",
+        "trackName": "Leaving On a Jet Plane",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/24/9c/39/249c39a8-3d00-9209-d6ed-a86f5f4967a1/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music/v4/24/9c/39/249c39a8-3d00-9209-d6ed-a86f5f4967a1/source/30x30bb.jpg",
+        "collectionId": 281470359,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 0.99,
+        "trackTimeMillis": 301733,
+        "trackViewUrl": "https://music.apple.com/us/album/leaving-on-a-jet-plane/281470359?i=281470550&uo=4",
+        "trackCensoredName": "Leaving On a Jet Plane",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 15,
+        "trackId": 1440640717,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/7d/cc/28/7dcc281d-d388-7f07-85a4-6d187e16f9f9/mzaf_17559853559361527163.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Under the Mistletoe (Deluxe Edition)",
+        "collectionPrice": 10.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/mistletoe/1440640693?i=1440640717&uo=4",
+        "primaryGenreName": "Holiday",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "Under the Mistletoe (Deluxe Edition)",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2011-10-17T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/99/fd/ed/99fded50-9418-3bd7-0608-7904e3ebae43/source/60x60bb.jpg",
+        "trackName": "Mistletoe",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/99/fd/ed/99fded50-9418-3bd7-0608-7904e3ebae43/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/99/fd/ed/99fded50-9418-3bd7-0608-7904e3ebae43/source/30x30bb.jpg",
+        "collectionId": 1440640693,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 182947,
+        "trackViewUrl": "https://music.apple.com/us/album/mistletoe/1440640693?i=1440640717&uo=4",
+        "trackCensoredName": "Mistletoe",
+      },
+      Immutable.Map {
+        "artistId": 398128,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-timberlake/398128?uo=4",
+        "isStreamable": true,
+        "trackCount": 13,
+        "trackId": 252606592,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/v4/8b/be/8d/8bbe8d26-521e-7a62-25f7-0d41983320c9/mzaf_3692970229267384627.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Justified",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/cry-me-a-river/252606580?i=252606592&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Timberlake",
+        "collectionCensoredName": "Justified",
+        "trackNumber": 5,
+        "kind": "song",
+        "releaseDate": "2002-11-05T08:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9e/f7/53/9ef7538e-563d-26a0-7021-8d2ddd306d0c/source/60x60bb.jpg",
+        "trackName": "Cry Me a River",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9e/f7/53/9ef7538e-563d-26a0-7021-8d2ddd306d0c/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9e/f7/53/9ef7538e-563d-26a0-7021-8d2ddd306d0c/source/30x30bb.jpg",
+        "collectionId": 252606580,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 288333,
+        "trackViewUrl": "https://music.apple.com/us/album/cry-me-a-river/252606580?i=252606592&uo=4",
+        "trackCensoredName": "Cry Me a River",
+      },
+      Immutable.Map {
+        "artistId": 32940,
+        "artistViewUrl": "https://music.apple.com/us/artist/michael-jackson/32940?uo=4",
+        "isStreamable": true,
+        "trackCount": 16,
+        "trackId": 850697815,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/v4/50/f0/1c/50f01ccf-4dd4-eea0-1c94-7d9ce591fdfb/mzaf_6052792677521696178.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "XSCAPE (Deluxe)",
+        "collectionPrice": 16.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/love-never-felt-so-good/850697616?i=850697815&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "collectionArtistName": "Michael Jackson",
+        "currency": "USD",
+        "artistName": "Michael Jackson & Justin Timberlake",
+        "collectionCensoredName": "XSCAPE (Deluxe)",
+        "trackNumber": 17,
+        "kind": "song",
+        "releaseDate": "2014-05-02T07:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/a8/60/28/a8602882-5d4e-3764-aa8a-e883a068e158/source/60x60bb.jpg",
+        "trackName": "Love Never Felt So Good",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/a8/60/28/a8602882-5d4e-3764-aa8a-e883a068e158/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/a8/60/28/a8602882-5d4e-3764-aa8a-e883a068e158/source/30x30bb.jpg",
+        "collectionId": 850697616,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 245671,
+        "trackViewUrl": "https://music.apple.com/us/album/love-never-felt-so-good/850697616?i=850697815&uo=4",
+        "trackCensoredName": "Love Never Felt So Good",
+      },
+      Immutable.Map {
+        "artistId": 3495273,
+        "artistViewUrl": "https://music.apple.com/us/artist/will-i-am/3495273?uo=4",
+        "isStreamable": true,
+        "trackCount": 15,
+        "trackId": 1471701769,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ad/0f/a5/ad0fa5f5-46fe-79e9-4822-b59dfa0a7eba/mzaf_15097517544550027742.plus.aac.p.m4a",
+        "collectionExplicitness": "explicit",
+        "collectionName": "#Willpower",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/thatpower-feat-justin-bieber/1471701415?i=1471701769&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "will.i.am",
+        "collectionCensoredName": "#Willpower",
+        "trackNumber": 9,
+        "kind": "song",
+        "releaseDate": "2013-03-18T12:00:00Z",
+        "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/a1/a6/26/a1a626ef-beed-ec94-fb2c-2f34d63845a0/source/60x60bb.jpg",
+        "trackName": "#thatPOWER (feat. Justin Bieber)",
+        "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/a1/a6/26/a1a626ef-beed-ec94-fb2c-2f34d63845a0/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/a1/a6/26/a1a626ef-beed-ec94-fb2c-2f34d63845a0/source/30x30bb.jpg",
+        "collectionId": 1471701415,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 279504,
+        "trackViewUrl": "https://music.apple.com/us/album/thatpower-feat-justin-bieber/1471701415?i=1471701769&uo=4",
+        "trackCensoredName": "#thatPOWER (feat. Justin Bieber)",
+      },
+      Immutable.Map {
+        "artistId": 398128,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-timberlake/398128?uo=4",
+        "isStreamable": true,
+        "trackCount": 2,
+        "trackId": 303099937,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0e/81/0e/0e810e30-c4e8-209a-5b6d-f2c2575a0c49/mzaf_8276548494892006105.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Love (feat. T.I.) - Single",
+        "collectionPrice": 1.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/my-love-feat-t-i-instrumental/303099932?i=303099937&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Timberlake",
+        "collectionCensoredName": "Love (feat. T.I.) - Single",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2006-10-24T07:00:00Z",
+        "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/67/29/c4/6729c4c3-88e1-8879-8899-50763a281358/source/60x60bb.jpg",
+        "trackName": "My Love (feat. T.I.)",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/67/29/c4/6729c4c3-88e1-8879-8899-50763a281358/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/67/29/c4/6729c4c3-88e1-8879-8899-50763a281358/source/30x30bb.jpg",
+        "collectionId": 303099932,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 277944,
+        "trackViewUrl": "https://music.apple.com/us/album/my-love-feat-t-i-instrumental/303099932?i=303099937&uo=4",
+        "trackCensoredName": "My Love (feat. T.I.) [Instrumental]",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 17,
+        "trackId": 1440650855,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/6d/70/38/6d7038fb-fa77-4874-316a-d2cf11b73342/mzaf_8752394035032523235.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Believe (Deluxe Edition)",
+        "collectionPrice": 11.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/all-around-the-world-feat-ludacris/1440650852?i=1440650855&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "Believe (Deluxe Edition)",
+        "trackNumber": 1,
+        "kind": "song",
+        "releaseDate": "2012-06-04T12:00:00Z",
+        "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/60x60bb.jpg",
+        "trackName": "All Around the World (feat. Ludacris)",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/30x30bb.jpg",
+        "collectionId": 1440650852,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 244547,
+        "trackViewUrl": "https://music.apple.com/us/album/all-around-the-world-feat-ludacris/1440650852?i=1440650855&uo=4",
+        "trackCensoredName": "All Around the World (feat. Ludacris)",
+      },
+      Immutable.Map {
+        "artistId": 272639185,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-moore/272639185?uo=4",
+        "isStreamable": true,
+        "trackCount": 10,
+        "trackId": 1440915845,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/0f/1b/74/0f1b74c0-737b-3bb8-272c-7aa2223c122e/mzaf_8015502611724208331.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Justin Moore",
+        "collectionPrice": 5.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/backwoods/1440915822?i=1440915845&uo=4",
+        "primaryGenreName": "Country",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Moore",
+        "collectionCensoredName": "Justin Moore",
+        "trackNumber": 3,
+        "kind": "song",
+        "releaseDate": "2009-08-11T12:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/85/91/fd/8591fd40-c8bd-ba0c-b155-352295503f3f/source/60x60bb.jpg",
+        "trackName": "Backwoods",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/85/91/fd/8591fd40-c8bd-ba0c-b155-352295503f3f/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/85/91/fd/8591fd40-c8bd-ba0c-b155-352295503f3f/source/30x30bb.jpg",
+        "collectionId": 1440915822,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 155893,
+        "trackViewUrl": "https://music.apple.com/us/album/backwoods/1440915822?i=1440915845&uo=4",
+        "trackCensoredName": "Backwoods",
+      },
+      Immutable.Map {
+        "artistId": 157749142,
+        "artistViewUrl": "https://music.apple.com/us/artist/dj-khaled/157749142?uo=4",
+        "isStreamable": true,
+        "trackCount": 23,
+        "trackId": 1244230127,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview117/v4/69/43/3b/69433bbc-a9f3-4a65-70dd-7bba30b46bb2/mzaf_4073175872773713291.plus.aac.p.m4a",
+        "collectionExplicitness": "explicit",
+        "collectionName": "Grateful",
+        "collectionPrice": 12.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/im-one-feat-justin-bieber-quavo-chance-rapper-lil-wayne/1244230120?i=1244230127&uo=4",
+        "primaryGenreName": "Hip-Hop/Rap",
+        "wrapperType": "track",
+        "contentAdvisoryRating": "Explicit",
+        "currency": "USD",
+        "artistName": "DJ Khaled",
+        "collectionCensoredName": "Grateful",
+        "trackNumber": 5,
+        "kind": "song",
+        "releaseDate": "2017-04-28T07:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/5b/bd/4b/5bbd4b35-f234-6366-3fa1-2f45431f861b/source/60x60bb.jpg",
+        "trackName": "I'm the One (feat. Justin Bieber, Quavo, Chance the Rapper & Lil Wayne)",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/5b/bd/4b/5bbd4b35-f234-6366-3fa1-2f45431f861b/source/100x100bb.jpg",
+        "trackExplicitness": "explicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/5b/bd/4b/5bbd4b35-f234-6366-3fa1-2f45431f861b/source/30x30bb.jpg",
+        "collectionId": 1244230120,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 288877,
+        "trackViewUrl": "https://music.apple.com/us/album/im-one-feat-justin-bieber-quavo-chance-rapper-lil-wayne/1244230120?i=1244230127&uo=4",
+        "trackCensoredName": "I'm the One (feat. Justin Bieber, Quavo, Chance the Rapper & Lil Wayne)",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 11,
+        "trackId": 1440661549,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/cb/e3/5c/cbe35c9e-2729-b58f-f798-1ce74322ae41/mzaf_4953649698098887575.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "My World 2.0 (Bonus Track Version)",
+        "collectionPrice": 7.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/stuck-in-the-moment/1440661543?i=1440661549&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "My World 2.0 (Bonus Track Version)",
+        "trackNumber": 3,
+        "kind": "song",
+        "releaseDate": "2010-03-19T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/60x60bb.jpg",
+        "trackName": "Stuck In the Moment",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/30x30bb.jpg",
+        "collectionId": 1440661543,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 222960,
+        "trackViewUrl": "https://music.apple.com/us/album/stuck-in-the-moment/1440661543?i=1440661549&uo=4",
+        "trackCensoredName": "Stuck In the Moment",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 15,
+        "trackId": 1440861859,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/b2/1d/80/b21d80b6-745c-fb12-e9ee-326d3279b481/mzaf_8066334407970409064.plus.aac.p.m4a",
+        "collectionExplicitness": "explicit",
+        "collectionName": "Journals",
+        "collectionPrice": 10.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/all-that-matters/1440861853?i=1440861859&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "Journals",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2013-10-14T12:00:00Z",
+        "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/a1/f7/c7/a1f7c728-b95a-aed7-d841-ede6394f1e47/source/60x60bb.jpg",
+        "trackName": "All That Matters",
+        "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/a1/f7/c7/a1f7c728-b95a-aed7-d841-ede6394f1e47/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/a1/f7/c7/a1f7c728-b95a-aed7-d841-ede6394f1e47/source/30x30bb.jpg",
+        "collectionId": 1440861853,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 188247,
+        "trackViewUrl": "https://music.apple.com/us/album/all-that-matters/1440861853?i=1440861859&uo=4",
+        "trackCensoredName": "All That Matters",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 11,
+        "trackId": 1440661553,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/4b/d3/ae/4bd3aebb-2906-94da-2509-42fdf19ce965/mzaf_8004930471779803316.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "My World 2.0 (Bonus Track Version)",
+        "collectionPrice": 7.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/never-let-you-go/1440661543?i=1440661553&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "My World 2.0 (Bonus Track Version)",
+        "trackNumber": 6,
+        "kind": "song",
+        "releaseDate": "2010-03-02T12:00:00Z",
+        "artworkUrl60": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/60x60bb.jpg",
+        "trackName": "Never Let You Go",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/30x30bb.jpg",
+        "collectionId": 1440661543,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 264400,
+        "trackViewUrl": "https://music.apple.com/us/album/never-let-you-go/1440661543?i=1440661553&uo=4",
+        "trackCensoredName": "Never Let You Go",
+      },
+      Immutable.Map {
+        "artistId": 320569549,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-bieber/320569549?uo=4",
+        "isStreamable": true,
+        "trackCount": 8,
+        "trackId": 1440616470,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/13/f9/48/13f948d4-252a-2037-0268-29329747f824/mzaf_89073488538035289.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "My World (Bonus Track & Videos Version)",
+        "collectionPrice": 11.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/favorite-girl/1440616467?i=1440616470&uo=4",
+        "primaryGenreName": "Pop",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Bieber",
+        "collectionCensoredName": "My World",
+        "trackNumber": 2,
+        "kind": "song",
+        "releaseDate": "2009-11-02T12:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/7c/22/f67c2271-3850-81a3-91d3-aa19f52ed8c1/source/60x60bb.jpg",
+        "trackName": "Favorite Girl",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/7c/22/f67c2271-3850-81a3-91d3-aa19f52ed8c1/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/7c/22/f67c2271-3850-81a3-91d3-aa19f52ed8c1/source/30x30bb.jpg",
+        "collectionId": 1440616467,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 256800,
+        "trackViewUrl": "https://music.apple.com/us/album/favorite-girl/1440616467?i=1440616470&uo=4",
+        "trackCensoredName": "Favorite Girl",
+      },
+      Immutable.Map {
+        "artistId": 272639185,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-moore/272639185?uo=4",
+        "isStreamable": true,
+        "trackCount": 13,
+        "trackId": 1440933609,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/8e/1d/50/8e1d50a8-a36a-9bb8-d4ef-08b0fa46e4e7/mzaf_8659763449392313859.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Outlaws Like Me",
+        "collectionPrice": 7.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/if-heaven-wasnt-so-far-away/1440933596?i=1440933609&uo=4",
+        "primaryGenreName": "Country",
+        "wrapperType": "track",
+        "currency": "USD",
+        "artistName": "Justin Moore",
+        "collectionCensoredName": "Outlaws Like Me",
+        "trackNumber": 3,
+        "kind": "song",
+        "releaseDate": "2011-02-28T12:00:00Z",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/20/43/18204302-f725-635e-7746-8382352027a6/source/60x60bb.jpg",
+        "trackName": "If Heaven Wasn't So Far Away",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/20/43/18204302-f725-635e-7746-8382352027a6/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/20/43/18204302-f725-635e-7746-8382352027a6/source/30x30bb.jpg",
+        "collectionId": 1440933596,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 223280,
+        "trackViewUrl": "https://music.apple.com/us/album/if-heaven-wasnt-so-far-away/1440933596?i=1440933609&uo=4",
+        "trackCensoredName": "If Heaven Wasn't So Far Away",
+      },
+      Immutable.Map {
+        "collectionArtistId": 80204262,
+        "artistId": 398128,
+        "artistViewUrl": "https://music.apple.com/us/artist/justin-timberlake/398128?uo=4",
+        "isStreamable": true,
+        "trackCount": 12,
+        "trackId": 1154239655,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/49/73/96/4973965c-4911-3a43-8a3a-186ccba65487/mzaf_12855775909541471572.plus.aac.p.m4a",
+        "collectionExplicitness": "notExplicit",
+        "collectionName": "Trolls (Original Motion Picture Soundtrack)",
+        "collectionPrice": 9.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/cant-stop-the-feeling-film-version/1154238159?i=1154239655&uo=4",
+        "primaryGenreName": "Soundtrack",
+        "wrapperType": "track",
+        "collectionArtistName": "Various Artists",
+        "currency": "USD",
+        "artistName": "Justin Timberlake, Anna Kendrick, Gwen Stefani, James Corden, Zooey Deschanel, Ron Funches, Caroline Hjelt, Aino Jawo, Christopher Mintz-Plasse & Kunal Nayyar",
+        "collectionCensoredName": "Trolls (Original Motion Picture Soundtrack)",
+        "trackNumber": 10,
+        "kind": "song",
+        "releaseDate": "2016-09-23T07:00:00Z",
+        "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/56/a5/be/56a5be25-a9d3-2bcf-dd88-aa5d99280cb5/source/60x60bb.jpg",
+        "trackName": "Can't Stop the Feeling!",
+        "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/56/a5/be/56a5be25-a9d3-2bcf-dd88-aa5d99280cb5/source/100x100bb.jpg",
+        "trackExplicitness": "notExplicit",
+        "country": "USA",
+        "artworkUrl30": "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/56/a5/be/56a5be25-a9d3-2bcf-dd88-aa5d99280cb5/source/30x30bb.jpg",
+        "collectionId": 1154238159,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 237400,
+        "trackViewUrl": "https://music.apple.com/us/album/cant-stop-the-feeling-film-version/1154238159?i=1154239655&uo=4",
+        "trackCensoredName": "Can't Stop the Feeling! (Film Version)",
+      },
+      Immutable.Map {
+        "artistId": 14967,
+        "artistViewUrl": "https://music.apple.com/us/artist/t-i/14967?uo=4",
+        "isStreamable": true,
+        "trackCount": 18,
+        "trackId": 1260878669,
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/a5/79/a4/a579a4d4-3025-34a3-6b62-6bf353141468/mzaf_2446762100261180799.plus.aac.p.m4a",
+        "collectionExplicitness": "cleaned",
+        "collectionName": "Paper Trail (Deluxe Version)",
+        "collectionPrice": 13.99,
+        "collectionViewUrl": "https://music.apple.com/us/album/dead-and-gone-feat-justin-timberlake/1260878651?i=1260878669&uo=4",
+        "primaryGenreName": "Rap",
+        "wrapperType": "track",
+        "contentAdvisoryRating": "Clean",
+        "currency": "USD",
+        "artistName": "T.I.",
+        "collectionCensoredName": "Paper Trail (Deluxe Version)",
+        "trackNumber": 16,
+        "kind": "song",
+        "releaseDate": "2008-09-29T12:00:00Z",
+        "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/51/5d/e2/515de21f-aa72-aaba-e950-bd82fce4bdcc/source/60x60bb.jpg",
+        "trackName": "Dead and Gone (feat. Justin Timberlake)",
+        "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/51/5d/e2/515de21f-aa72-aaba-e950-bd82fce4bdcc/source/100x100bb.jpg",
+        "trackExplicitness": "cleaned",
+        "country": "USA",
+        "artworkUrl30": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/51/5d/e2/515de21f-aa72-aaba-e950-bd82fce4bdcc/source/30x30bb.jpg",
+        "collectionId": 1260878651,
+        "discCount": 1,
+        "discNumber": 1,
+        "trackPrice": 1.29,
+        "trackTimeMillis": 300533,
+        "trackViewUrl": "https://music.apple.com/us/album/dead-and-gone-feat-justin-timberlake/1260878651?i=1260878669&uo=4",
+        "trackCensoredName": "Dead and Gone (feat. Justin Timberlake)",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  keyboardDismissMode="interactive"
+  keyboardShouldPersistTaps="handled"
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReached={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onRefresh={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      onRefresh={[Function]}
+      refreshing={false}
+    />
+  }
+  refreshing={false}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <RCTRefreshControl />
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E5E5E5",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Image
+          resizeMethod="resize"
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2b/8f/782b8fa1-0e66-b76d-83c9-80e6013e25f4/source/100x100bb.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Justin
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Korn
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 10,
+              }
+            }
+          >
+            Follow the Leader
+          </Text>
+        </View>
+        <View />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E5E5E5",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Image
+          resizeMethod="resize"
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/2e/fa/7d/2efa7de1-f5ef-4dd7-9c03-0f2b86083401/source/100x100bb.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Baby (feat. Ludacris)
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Justin Bieber
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 10,
+              }
+            }
+          >
+            My World 2.0 (Bonus Track Version)
+          </Text>
+        </View>
+        <View />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E5E5E5",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Image
+          resizeMethod="resize"
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/f0/57/2a/f0572ad9-c036-b650-609f-e85df8e3b558/source/100x100bb.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Justin
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Against Me!
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 10,
+              }
+            }
+          >
+            Searching for a Former Clarity
+          </Text>
+        </View>
+        <View />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E5E5E5",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Image
+          resizeMethod="resize"
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/94/63/89/94638932-9fad-8bf5-c215-ae435f040d12/source/100x100bb.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Boyfriend
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Justin Bieber
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 10,
+              }
+            }
+          >
+            Boyfriend (Dada Life Remix) - Single
+          </Text>
+        </View>
+        <View />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E5E5E5",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Image
+          resizeMethod="resize"
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/100x100bb.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            As Long As You Love Me (feat. Big Sean)
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Justin Bieber
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 10,
+              }
+            }
+          >
+            Believe (Deluxe Edition)
+          </Text>
+        </View>
+        <View />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E5E5E5",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Image
+          resizeMethod="resize"
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/cc/e4/f8/cce4f828-85bb-ad43-08cf-9c30447bdc50/source/100x100bb.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Beauty and a Beat (feat. Nicki Minaj)
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Justin Bieber
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 10,
+              }
+            }
+          >
+            Believe (Deluxe Edition)
+          </Text>
+        </View>
+        <View />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E5E5E5",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Image
+          resizeMethod="resize"
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/32/c9/65/32c96534-a96d-e15e-9b46-cf8475751c34/source/100x100bb.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Despacito (feat. Justin Bieber)
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Luis Fonsi & Daddy Yankee
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 10,
+              }
+            }
+          >
+            VIDA
+          </Text>
+        </View>
+        <View />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E5E5E5",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Image
+          resizeMethod="resize"
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/7a/f5/26/7af526b3-ff21-43d3-7e03-a25f7011b715/source/100x100bb.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Eenie Meenie
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            Sean Kingston & Justin Bieber
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 10,
+              }
+            }
+          >
+            Eenie Meenie - Single
+          </Text>
+        </View>
+        <View />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E5E5E5",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Image
+          resizeMethod="resize"
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/c9/94/87/c9948760-d4db-0981-955c-75f38e2079d3/source/100x100bb.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Holy Grail (feat. Justin Timberlake)
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            JAY-Z
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 10,
+              }
+            }
+          >
+            Magna Carta... Holy Grail
+          </Text>
+        </View>
+        <View />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E5E5E5",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "opacity": 1,
+            "padding": 15,
+          }
+        }
+      >
+        <Image
+          resizeMethod="resize"
+          resizeMode="cover"
+          source={
+            Object {
+              "uri": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1e/75/b9/1e75b945-ba40-33ca-29e9-cca66609e353/source/100x100bb.jpg",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": 50,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 14,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Dead and Gone (feat. Justin Timberlake)
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 12,
+              }
+            }
+          >
+            T.I.
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontSize": 10,
+              }
+            }
+          >
+            Paper Trail (Deluxe Version)
+          </Text>
+        </View>
+        <View />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "height": 0,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;

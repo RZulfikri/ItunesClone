@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchHeader React-Redux Component should renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#E5E5E5",
+      "borderBottomWidth": 1,
+      "padding": 15,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Search Artist"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "borderColor": "#E5E5E5",
+        "borderRadius": 17.5,
+        "borderWidth": 1,
+        "height": 35,
+        "paddingHorizontal": 15,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;

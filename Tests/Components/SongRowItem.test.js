@@ -82,7 +82,7 @@ describe('SongRowItem React-Redux Component', () => {
     expect(component.toJSON()).toMatchSnapshot();
   });
 
-  it('should dispatch an setActiveSong on tap', () => {
+  it('should dispatch setActiveSong on tap', () => {
     MusicPlayerHolder.setInstance(MusicControl);
 
     renderer.act(() => {
