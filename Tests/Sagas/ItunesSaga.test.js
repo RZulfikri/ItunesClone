@@ -44,13 +44,7 @@ describe('SearchArtistSaga', () => {
 });
 
 // mock Music Player Holder instance
-import MusicControl, {
-  mockPlay,
-  mockHide,
-  mockShow,
-  mockPause,
-  mockStop,
-} from '../__mocks__/MusicControl';
+import MusicControl from '../__mocks__/MusicControl';
 MusicPlayerHolder.setInstance(MusicControl);
 // test to check that sagas call select function
 test('SetBackwardSaga', () => {
