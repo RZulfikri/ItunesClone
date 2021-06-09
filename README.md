@@ -28,7 +28,7 @@ A. Android
 
 OR you can build release APK and install to your android devices manually
 - run ```cd android && ./gradlew assembleRelease```
-- wait untul process finish, then you can find the apk under ```android/app/build/outputs/apk/release```
+- wait until process finish, then you can find the apk under ```android/app/build/outputs/apk/release```
 
 B. IOS
 - go to ```ios``` directory of this project from your terminal
