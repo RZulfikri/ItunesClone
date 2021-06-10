@@ -17,6 +17,16 @@ min IOS version = 10
 # Requirement to build
 Before run or build this project, if you have't setup react-native environtment, kindly check this react-native documentation https://reactnative.dev/docs/environment-setup
 
+# Test Description
+In this project, I separate testing into a few units, such as:
+1. ```Redux testing``` = to check that redux action & reducer working correctly
+2. ```Sagas testing``` = to check that sagas logic or action working correctly
+3. ```API testing``` = to check that response as expected
+4. ```Function (Helper) testing``` = to check that input-output as expected.
+5. ```Component testing``` = to chat that the component renders correctly.
+
+You can check the test script under ```Test``` folder in root directory, 
+
 # Run Test
 - run ```yarn install``` or ```npm install``` from terminal
 - run ```yarn updateSnapshot``` to create component screenshot & run test
