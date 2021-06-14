@@ -23,7 +23,7 @@ In this project, I separate testing into a few units, such as:
 2. ```Sagas testing``` = to check that sagas logic or action working correctly
 3. ```API testing``` = to check that response as expected
 4. ```Function (Helper) testing``` = to check that input-output as expected.
-5. ```Component testing``` = to chat that the component renders correctly.
+5. ```Component testing``` = to check that the component renders correctly.
 
 You can check the test script under ```Test``` folder in root directory, 
 
